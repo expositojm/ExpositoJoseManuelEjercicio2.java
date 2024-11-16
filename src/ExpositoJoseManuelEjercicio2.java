@@ -25,6 +25,12 @@ public class ExpositoJoseManuelEjercicio2 {
             size = scanner.nextInt();
         } while (size < 1 || size > 15);
 
+        //imprimir barra sepa horizonal
+        for (int i = 0; i < 8 * (size + 1) + 1; i++) {
+            System.out.print("-");
+        }
+        System.out.println();
+
 
     }
 }
