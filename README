@@ -1,12 +1,13 @@
 Chess Board
-El programa personaliza la impresion de un tablero de ajedrez permitiendo configurar las casillas tradicionalmente negras por el caracter deseado.
-Tambien permite elegir la dimension de la casilla repitiendo el cracter elegido.
+El programa personaliza la impresión de un tablero de ajedrez permitiendo configurar las casillas tradicionalmente negras por el carácter deseado.
+También permite elegir la dimensión de la casilla repitiendo el carácter elegido.
 
 Funcionamiento:
 
-#Introducir un caracter, debe ser unico sino el propgrama te pedira que introduzcas de nuevo
+#Introducir un carácter, debe ser único sino el programa te pedirá que introduzcas de nuevo
 
-#Introducir tamaño de 1-15 -> Dependiendo del numero escala la imagen repitiendo el caracter. Si se introduce
-numero fuera de rango te pide un valor nuevo que sea valido.
+#Introducir tamaño de 1-15 -> Dependiendo del número escala la imagen repitiendo el carácter. Si se introduce
+número fuera de rango te pide un valor nuevo que sea válido.
 
 #Genera el tablero a partir de los valores introducidos y finaliza programa
+
