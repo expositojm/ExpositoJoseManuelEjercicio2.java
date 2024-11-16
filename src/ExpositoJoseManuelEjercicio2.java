@@ -18,7 +18,12 @@ public class ExpositoJoseManuelEjercicio2 {
             }
         } while (input.length() != 1);
 
+        // Solicitar el tamaño
 
+        do {
+            System.out.print("Introduce el tamaño de la cuadricula (1-15): ");
+            size = scanner.nextInt();
+        } while (size < 1 || size > 15);
 
 
     }
