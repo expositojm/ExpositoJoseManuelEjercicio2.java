@@ -9,6 +9,7 @@ public class ExpositoJoseManuelEjercicio2 {
         //pedir el caracter (solo 1 caracter)
         do {
             System.out.println("TABLERO PERSONALIZADO");
+            System.out.println();
             System.out.print("Introduce el caracter que quieres para tu tablero: ");
             pattern = scanner.nextLine();
 
@@ -36,10 +37,10 @@ public class ExpositoJoseManuelEjercicio2 {
                 for (int column = 0; column < 8; column++) {
                     System.out.print("|");
                     for (int width = 0; width < size; width++) {
-                        if ((row + column) % 2 == 1) {                      //si es par imprime pattern
+                        if ((row + column) % 2 == 1) {                     //si es par imprime pattern
                             System.out.print(pattern);
                         } else {
-                            System.out.print(" ");                          //si no imprime en blanco
+                            System.out.print(" ");                         //si no imprime en blanco
                         }
                     }
                 }
